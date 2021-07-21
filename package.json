@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
+    "start": "node server.js",
     "clint-install": "cd flipkart && npm install",
     "clint-build": "cd flipkart && npm run build",
     "heroku-postbuild":"npm run flipkart-install && npm run flipkart-build"
