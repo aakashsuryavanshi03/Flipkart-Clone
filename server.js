@@ -23,7 +23,7 @@ const URL =`mongodb+srv://${username}:${password}@ecommereceweb.kk4cv.mongodb.ne
 
 Connection(process.env.MONGODB_URL || URL);
 
-if(process.env.NODE_ENV == 'production') {
+if(process.env.NODE_ENV === 'production') {
     app.use(express.static('client/build'))
 }
 
